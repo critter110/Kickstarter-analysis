@@ -31,3 +31,9 @@ Finally, Louise mentioned that she was specifically interested in the fundraisin
 ![GB Box and Whisker chart](https://github.com/critter110/Kickstarter-analysis/blob/master/GreatBritain%20Musical%20statistics.png)
 Here it becomes even more evident that the fundraising goals are often times a lot larger than the amount that will actually get pledged. Again, we can take from this that Louise should be conservative with her fundraising expectations and financial planning. 
 
+### Challenge
+In this challenge we were tasked with finding the number of successful, failed, and canceled theater plays, and comparing them to the goal fundraising amount. To do this, we created bins of goal amounts, less than $1000, $1000 to $4999, $5000 to $9999, etc. up to Greater than $50,000. Then, using the COUNTIFS() function, we tallied up the number of successful, failed, and canceled projects that fell into each bin. We then added up the total number of projects in each bin, and calculated the percentages for successful, failed, and canceled projects. Finally, we took these percentages and created a line chart to visualize the data.
+![Percentage of Success](https://github.com/critter110/Kickstarter-analysis/blob/master/Percentage%20of%20success.png)
+We can see from the chart that the highest percentage of successful projects come from the lower goal bins. In other words, the plays that ask for the least amount of money have the highest chance of being successful. As the goal amount gets higher, the successful percentage drops and the failed percentage rises. 
+
+The second part of the weekly challenge was a repeat of an excersize in the module. The pivot chart and analysis of Theater outcomes based on launch date can be seen above. 
